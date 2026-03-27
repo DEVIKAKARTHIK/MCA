@@ -1,11 +1,10 @@
-# Hide the languages that are taking over the bar
+# Hide everything that has been showing up
+*.php linguist-detectable=false
 *.html linguist-detectable=false
-*.htm linguist-detectable=false
 *.c linguist-detectable=false
 *.h linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
 
-# Explicitly tell GitHub to count these languages
-*.java linguist-detectable=true
-*.sh linguist-detectable=true
-*.py linguist-detectable=true
-*.sql linguist-detectable=true
+# If you have other folders you want to ignore entirely (like documentation)
+docs/* linguist-documentation
