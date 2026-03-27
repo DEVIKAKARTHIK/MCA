@@ -1,12 +1,7 @@
-# Force GitHub to count every language you want to see
-*.c linguist-detectable=true
-*.cpp linguist-detectable=true
-*.java linguist-detectable=true
-*.py linguist-detectable=true
-*.sh linguist-detectable=true
-*.php linguist-detectable=true
-*.html linguist-detectable=true
-
-# Optional: Hide generated files or libraries that you didn't write
-# (This helps the percentages stay accurate to your work)
-vendor/* linguist-vendored
+*.java linguist-language=Java
+*.py linguist-language=Python
+*.c linguist-language=C
+*.cpp linguist-language=C++
+*.sh linguist-language=Shell
+*.php linguist-language=PHP
+*.html linguist-language=HTML
